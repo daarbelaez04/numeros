@@ -14,6 +14,9 @@ function soloNumeros(e) {
         if(key == especiales[i]) {
             tecla_especial = true;
             break;
+            
+            
+            
         }
     }
 
