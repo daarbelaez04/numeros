@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Numeros</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+        <script language="javascript" type="text/javascript" src="evento.js"></script>
+    </head>
+    <body>
+         <form  action="numero" method="post" onsubmit="return valida(this)">
+            <div>
+                <p>Numero:</p>
+                <input type="text" class="field" id="cambio" name="numero" onkeypress="return soloNumeros(event)">
+                <button type="submit" value="crear" id="botones" >Cambiar</button>
+            </div> 
+        </form>
+    </body>
+</html>
